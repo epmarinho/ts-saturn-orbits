@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+*.npy
+*.png
+*.csv
+*.pt
+*.pth
+*.tar.gz
+
