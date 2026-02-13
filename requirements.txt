@@ -1,0 +1,12 @@
+matplotlib==3.9.2
+numpy==1.26.4
+pandas @ file:///home/conda/feedstock_root/build_artifacts/pandas_1715897630316/work
+scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1719998091999/work/dist/scikit_learn-1.5.1-cp312-cp312-linux_x86_64.whl#sha256=67792e358aac20df1b7a20c4cc9f00269449d382e15c1d403bf76d77b7de0a03
+scikit-learn-extra==0.3.0
+torch==2.4.1
+torchaudio==2.4.1
+torchvision==0.19.1
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1722737464726/work
+tsfresh @ file:///home/conda/feedstock_root/build_artifacts/tsfresh_1706438107909/work
+umap-learn==0.5.6
+

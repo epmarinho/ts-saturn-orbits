@@ -1,40 +1,42 @@
-# Saturn Orbits Time-Series Clustering
+# Saturn Orbits Time-Series Clustering (phi1)
 
-This repository contains the complete code and dataset used to generate the results reported in Table 2 (phi1) of the manuscript:
+This repository contains the exact script and dataset used to generate
+Table 2 (phi1) in the manuscript:
 
 "Clustering Astronomical Orbital Synthetic Data Using Advanced Feature Extraction and Dimensionality Reduction Techniques"
 
 ---
 
-## Repository Structure
+## Repository Contents
 
-ts-saturn-orbits/
-├── dict-tsf-fft-wvlt-pca-plot-lbl-rocket-phi1.py
-├── features.py
-├── io_utils.py
-├── clustering_utils.py
-├── plots.py
-├── orbits-dataset/
-└── requirements.txt
+- `dict-tsf-fft-wvlt-pca-plot-lbl-rocket-phi1.py`  
+  Main script performing the full benchmark grid search.
+
+- `orbits-dataset/`  
+  Contains 22,288 synthetic Saturn satellite orbital time series.
+
+- `requirements.txt`  
+  Python dependencies required to run the experiment.
 
 ---
 
 ## Dataset
 
-The `orbits-dataset/` directory contains 22,288 synthetic Saturn satellite orbital time series.
+Each file in `orbits-dataset/` corresponds to one trajectory and contains:
 
-Each file corresponds to one trajectory and contains:
 - First line: initial orbital parameters
-- Remaining lines: time-series values (400 samples)
+- Remaining lines: 400 time-series samples
 
-The dataset is included in this repository to ensure full reproducibility.
+The dataset is included to ensure full reproducibility.
 
 ---
 
-## Requirements
+## Installation
 
-Install dependencies:
+We recommend using a virtual environment:
 
 ```bash
-pip install -r requirements.txt
+
+conda env create -f environment.yml
+conda activate new_timeseries_env
 
