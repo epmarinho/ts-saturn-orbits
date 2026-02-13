@@ -18,6 +18,9 @@ Table 2 (phi1) in the manuscript:
 - `requirements.txt`  
   Python dependencies required to run the experiment.
 
+- `environment.yml`
+  To be used with conda (recomended)
+
 ---
 
 ## Dataset
